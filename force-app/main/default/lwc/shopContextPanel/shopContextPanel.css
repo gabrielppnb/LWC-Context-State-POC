@@ -1,0 +1,10 @@
+.panel {
+	border: 1px solid #d8dde6;
+	border-radius: 8px;
+	padding: 0.75rem;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}

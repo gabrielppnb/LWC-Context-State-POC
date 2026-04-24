@@ -1,0 +1,14 @@
+<template>
+	<section class="panel">
+		<h3>Consumo via fromContext</h3>
+		<p>Quantidade: {items.length}</p>
+		<p>Total calculado: R$ {total}</p>
+
+		<template for:each={items} for:item="item">
+			<div key={item.id} class="row">
+				<span>{item.name}</span>
+				<span>R$ {item.price}</span>
+			</div>
+		</template>
+	</section>
+</template>
